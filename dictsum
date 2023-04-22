@@ -1,0 +1,6 @@
+#sum of all items in a dictionary
+my_dict = {'key1': 'Nidhi', 'key2': 'Sri', 'key3': 'che'}
+a=my_dict.values()
+a
+k=len(a)
+print ("sum of all items in the dictionary is {b}".format(b=k))
