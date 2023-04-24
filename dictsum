@@ -1,6 +1,5 @@
 #sum of all items in a dictionary
-my_dict = {'key1': 'Nidhi', 'key2': 'Sri', 'key3': 'che'}
+my_dict = {'key1': 1, 'key2': 3, 'key3': 7}
 a=my_dict.values()
-a
-k=len(a)
-print ("sum of all items in the dictionary is {b}".format(b=k))
+b=sum(a)
+print (f"sum of all items in the dictionary is  {b}")
